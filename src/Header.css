@@ -1,0 +1,18 @@
+header {
+  height: 100vh;
+}
+
+#headerbg {
+  height: calc(100vh - 60px);
+  background-image: url(img/casa01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#maintitle {
+  padding-left: 50px;
+  padding-top: 10vh;
+  color: #aa296c;
+  font-weight: 600;
+  font-size: 8vw;
+}

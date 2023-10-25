@@ -1,0 +1,28 @@
+#menu {
+  z-index: 999;
+  width: 50%;
+  height: calc(100vh - 60px);
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+  background: rgba(209, 145, 47, 0.5);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  justify-items: center;
+}
+
+.menuline {
+  border: 1px solid white;
+  height: 0;
+  width: 20%;
+}
+
+.itemmenu {
+  color: white;
+}
+
+.itemmenu p {
+  font-size: 25pt;
+}
