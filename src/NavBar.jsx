@@ -19,12 +19,18 @@ function NavbarWithCTAButton() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link href="#" active className="text-yellow-500">
+        <Navbar.Link href="#" active>
           Home
         </Navbar.Link>
-        <Navbar.Link href="#">Sobre o NODA</Navbar.Link>
-        <Navbar.Link href="#">Portfolio</Navbar.Link>
-        <Navbar.Link href="#">Contato</Navbar.Link>
+        <Navbar.Link href="#" className="text-yellow-500">
+          Sobre o NODA
+        </Navbar.Link>
+        <Navbar.Link href="#" className="text-yellow-500">
+          Portfolio
+        </Navbar.Link>
+        <Navbar.Link href="#" className="text-yellow-500">
+          Contato
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
