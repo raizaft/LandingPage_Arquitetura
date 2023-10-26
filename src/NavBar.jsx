@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Navbar } from "flowbite-react";
+import { Button, Navbar, Tooltip } from "flowbite-react";
 
 function NavbarWithCTAButton() {
   return (
@@ -8,9 +8,14 @@ function NavbarWithCTAButton() {
         <img src="img/logo.png" className="mr-3 h-6 sm:h-9" alt="logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button className="bg-yellow-500" href="#">
-          Peça um orçamento!
-        </Button>
+        <Tooltip
+          content="Envie um email pedindo um orçamento!"
+          placement="left"
+        >
+          <Button className="bg-yellow-500" href="#">
+            Orçar
+          </Button>
+        </Tooltip>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
