@@ -12,9 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Cards />
     <h1>Peça um orçamento!</h1>
     <div className="form">
-      <div></div>
-      <DefaultForm />
-      <div></div>
+      <DefaultForm className="w-500" />
     </div>
     <FooterWithSocialMediaIcons />
   </React.StrictMode>

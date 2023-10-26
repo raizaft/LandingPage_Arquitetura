@@ -3,7 +3,7 @@ import { Button, Checkbox, Label, TextInput, Textarea } from "flowbite-react";
 
 function DefaultForm() {
   return (
-    <form className="flex max-w-md flex-col gap-4">
+    <form className="flex max-w-md w-500 flex-col gap-4">
       <div>
         <div className="mb-2 block">
           <Label htmlFor="email1" value="Email" />
